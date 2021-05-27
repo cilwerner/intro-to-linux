@@ -4,7 +4,6 @@ teaching: 10
 exercises: 0
 questions:
 - "How do I create, copy, delete files and directories?"
-- "How can I edit files?"
 objectives:
 - "How to create a directory hierarchy that matches a given diagram and how to navigate through it."
 - "Delete, copy and move specified files and/or directories"

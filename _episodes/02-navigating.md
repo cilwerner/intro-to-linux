@@ -5,6 +5,7 @@ exercises: 0
 questions:
 - "What is the directory tree?"
 - "How can I move around the computer?"
+- "What happens if I get lost?"
 - "How can I see files and directories?"
 objectives:
 - "To gain understanding of the directory tree, and navigate through it as effectively as a GUI interface"

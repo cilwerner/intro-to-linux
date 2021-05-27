@@ -15,7 +15,7 @@ keypoints:
 - "On Linux systems, like supercomputers, everything is done on the command line."
 - "Many commands need options (flags) beginning with a `-` to be utilised effecitvely"
 - "Many commands need additional arguments to be passed into them to perform"
-- "Whitespace matters!"
+- "Whitespace matters. Every space makes a difference, so be careful what you are typing."
 - "The `man` command will return usage and flags of any command you specify"
 ---
 
