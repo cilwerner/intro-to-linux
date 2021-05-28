@@ -22,6 +22,9 @@ keypoints:
 - "The `cd` command allows you to navigate through directories, but you also need to direct it to where you want to go
   using `cd [path]`."
 - "The root directory is specified by the root directory, referred to as `/`."
+- "An absolute path specifies a location from the"
+- "`..` means 'the directory above the current one' in the directory tree, whereas `.` on its own specifies 
+  'the current directory'."
 ---
 
 <p align="center"><img src="../fig/ICHEC_Logo.jpg" width="40%"/></p>
@@ -33,9 +36,7 @@ computer, then using the command line to navigate around for the first time is s
 thick maze in the dark without a torch. 
 
 
-- "The root directory is specified by the root directory, referred to as `/`."
 - "Directory names in a path are separated with `/` on Unix and Mac, but by `\` on Windows."
-- "An absolute path specifies a location from the"
-- "`..` means 'the directory above the current one' in the directory tree, whereas `.` on its own specifies 'the current directory'."
+
 
 {% include links.md %}
