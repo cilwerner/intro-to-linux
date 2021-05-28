@@ -19,7 +19,7 @@ keypoints:
 - "The `ls` command lists the contents of the present working directory. Additional options and arguments can filter this list further."
 - "The `cd` command allows you to navigate through directories, but you also need to direct it to where you want to go using `cd [path]`."
 - "The root directory is specified by the root directory, referred to as `/`."
-- "Directory names in a path are separated with '/' on Unix and Mac, but by '\' on Windows."
+- "Directory names in a path are separated with `/` on Unix and Mac, but by `\` on Windows."
 - "An absolute path specifies a location from the"
 - "`..` means 'the directory above the current one' in the directory tree, whereas `.` on its own specifies 'the current directory'."
 ---
