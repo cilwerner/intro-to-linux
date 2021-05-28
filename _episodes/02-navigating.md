@@ -95,7 +95,7 @@ which will be constructed in a similar way, but not be exactly identical.
 On Nelle's computer, the filesystem looks like this:
 
 ![The file system is made up of a root directory that contains sub-directories
-titled bin, data, users, and tmp](../fig/filesystem.svg)
+titled bin, data, users, and tmp](../ep02/filesystem.svg)
 
 At the top is the **root directory**
 that holds everything else.
@@ -129,7 +129,7 @@ her colleagues *imhotep* and *larry*.
 
 ![Like other directories, home directories are sub-directories underneath 
 "/Users" like "/Users/imhotep", "/Users/larry" or 
-"/Users/nelle"](../fig/home-directories.svg)
+"/Users/nelle"](../ep02/home-directories.svg)
 
 The user *imhotep*'s files are stored in `/Users/imhotep`,
 user *larry*'s in `/Users/larry`,
@@ -725,7 +725,7 @@ Run `pwd` and `ls -F` to ensure that we're in the directory we expect.
 directories "backup" and "thing"; "/Users/backup" contains "original",
 "pnas_final" and "pnas_sub"; "/Users/thing" contains "backup"; and
 "/Users/thing/backup" contians "2012-12-01", "2013-01-08" and
-"2013-01-27"](../fig/filesystem-challenge.svg)
+"2013-01-27"](../fig/ep02/filesystem-challenge.svg)
 >
 > > ## Solution
 > > 1. No: there *is* a directory `backup` in `/Users`.
@@ -752,7 +752,7 @@ directories "backup" and "thing"; "/Users/backup" contains "original",
 directories "backup" and "thing"; "/Users/backup" contains "original",
 "pnas_final" and "pnas_sub"; "/Users/thing" contains "backup"; and 
 "/Users/thing/backup" contians "2012-12-01", "2013-01-08" and 
-"2013-01-27"](../fig/filesystem-challenge.svg)
+"2013-01-27"](../fig/ep02/filesystem-challenge.svg)
 >
 > 1.  `ls pwd`
 > 2.  `ls -r -F`
