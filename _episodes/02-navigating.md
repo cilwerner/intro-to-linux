@@ -1,5 +1,5 @@
 ---
-title: "Working with files and directories"
+title: "Navigating Files and Directories"
 teaching: 10
 exercises: 0
 questions:
@@ -14,16 +14,18 @@ objectives:
 - "Use options and arguments to change the behaviour of a shell command."
 - "Demonstrate the usage of tab completion, and explain its advantages."
 keypoints:
-- "Most files' names are `something.extension`. The extension isn't required, and doesn't guarantee anything,
-  but is normally used to indicate the type of data in the file."
-- "`cp [old] [new]` copies a file."
-- "`mv [old] [path]` moves a file into the specified path, `mv [old] [new]` renames a file."
-- "`mkdir [path]` creates a new directory."
-- "`rmdir [path]` removes an empty directory. `rm [path]` removes a file. These are irreversible as the shell
-  does not have a recycle bin."
-- "`*` matches zero or more characters in a filename, so `*.txt` matches all files ending in `.txt`."
-- "`?` matches any single character in a filename, so `?.txt` matches `a.txt` but not `any.txt`."
-- ""
+- "Information is stored in files, which are stored in directories. A directory is itself a file which contains
+  references to other files."
+- "The `pwd` command will always show where you are at any time."
+- "The `ls` command lists the contents of the present working directory. Additional options and arguments can filter
+  this list further."
+- "The `cd` command allows you to navigate through directories, but you also need to direct it to where you want to go
+  using `cd [path]`."
+- "The root directory is specified by the root directory, referred to as `/`."
+- "Directory names in a path are separated with `/` on Unix and Mac, but by `\` on Windows."
+- "An absolute path specifies a location from the"
+- "`..` means 'the directory above the current one' in the directory tree, whereas `.` on its own specifies 'the
+  current directory'."
 ---
 
 <p align="center"><img src="../fig/ICHEC_Logo.jpg" width="40%"/></p>
