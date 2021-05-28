@@ -25,7 +25,7 @@ keypoints:
 - "An absolute path specifies a location from the"
 - "`..` means 'the directory above the current one' in the directory tree, whereas `.` on its own specifies 
   'the current directory'."
-- "Directory names in a path are separated with `/` on Unix and Mac, but by `\` on Windows."
+- "Directory names in a path are separated with `/` on Unix and Mac, but by `\\` on Windows."
 ---
 
 <p align="center"><img src="../fig/ICHEC_Logo.jpg" width="40%"/></p>
