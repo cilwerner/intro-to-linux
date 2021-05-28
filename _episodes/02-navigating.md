@@ -3,10 +3,16 @@ title: "Working with files and directories"
 teaching: 10
 exercises: 0
 questions:
-- "How do I create, copy, delete files and directories?"
+- "What is the directory tree?"
+- "How can I move around the computer?"
+- "What happens if I get lost?"
+- "How can I see files and directories?"
 objectives:
-- "How to create a directory hierarchy that matches a given diagram and how to navigate through it."
-- "Delete, copy and move specified files and/or directories"
+- "To gain understanding of the directory tree, and navigate through it as effectively as a GUI interface."
+- "Explain the similarities and differences between files and directories."
+- "Gain understanding of relative and actual paths."
+- "Use options and arguments to change the behaviour of a shell command."
+- "Demonstrate the usage of tab completion, and explain its advantages."
 keypoints:
 - "Most files' names are `something.extension`. The extension isn't required, and doesn't guarantee anything,
   but is normally used to indicate the type of data in the file."
