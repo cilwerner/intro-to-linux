@@ -3,6 +3,21 @@ title: "Navigating Files and Directories"
 teaching: 10
 exercises: 0
 questions:
+- ""
+objectives:
+- ""
+keypoints:
+- ""
+---
+
+<p align="center"><img src="../fig/ICHEC_Logo.jpg" width="40%"/></p>
+
+## The directory tree
+
+If you are used to using click and select GUI operations for finding your way through files and folders on your
+computer, then using the command line to navigate around for the first time is similar to being dropped into a 
+thick maze in the dark without a torch. 
+
 - "What is the directory tree?"
 - "How can I move around the computer?"
 - "What happens if I get lost?"
@@ -22,14 +37,5 @@ keypoints:
 - "Directory names in a path are separated with `/` on Unix and Mac, but by `\` on Windows."
 - "An absolute path specifies a location from the"
 - "`..` means 'the directory above the current one' in the directory tree, whereas `.` on its own specifies 'the current directory'."
----
-
-<p align="center"><img src="../fig/ICHEC_Logo.jpg" width="40%"/></p>
-
-## The directory tree
-
-If you are used to using click and select GUI operations for finding your way through files and folders on your
-computer, then using the command line to navigate around for the first time is similar to being dropped into a 
-thick maze in the dark without a torch. 
 
 {% include links.md %}
