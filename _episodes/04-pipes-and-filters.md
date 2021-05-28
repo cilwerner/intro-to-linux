@@ -1,5 +1,5 @@
 ---
-title: "Navigating Files and Directories"
+title: "Pipes and Filters"
 teaching: 10
 exercises: 0
 questions:
